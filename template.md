@@ -12,7 +12,6 @@
 * Lateral Movement
 * Exfiltration
 
-
 ## Summary
 
 
