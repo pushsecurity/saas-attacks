@@ -1,4 +1,4 @@
-# Ghost login methods
+# Ghost logins
 
 ## Tactics
 * Persistence
