@@ -1,5 +1,7 @@
 # SaaS attack techniques
 
+> Quick note: we wanted to start sharing as early as possible, so this is very much a work in progress. Hopefully there is enough to see the shape of things to come, but no doubt there are gaps - we'll be filling them in over the coming weeks and months. If you can help fill in some references, add examples, or point us to missing techniques - please open an issue (or even a PR)! We'll be very sure to credit you.
+
 | Reconnaissance | Initial Access | Execution | Persistence | Privilege Escalation | Defense Evasion | Credential Access | Discovery | Lateral Movement | Exfiltration |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |[SAML enumeration](techniques/saml_enumeration/description.md)|[Consent phishing](techniques/consent_phishing/description.md)|[Shadow workflows](techniques/shadow_workflows/description.md)|[API keys](techniques/api_keys/description.md)|[Link backdooring](techniques/link_backdooring/description.md)|[API keys](techniques/api_keys/description.md)|[Password scraping](techniques/password_scraping/description.md)|[Email discovery](techniques/email_discovery/description.md)|[Link backdooring](techniques/link_backdooring/description.md)|[Takeout services](techniques/takeout_services/description.md)|
