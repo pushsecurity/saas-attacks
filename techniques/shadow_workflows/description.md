@@ -1,7 +1,8 @@
-# Shadown workflows
+# Shadow workflows
 
 ## Tactics
 * Execution
+* Exfiltration
 
 ## Summary
 
@@ -18,5 +19,8 @@ Akin to traditional endpoint “Living Off The Land” (LOTL) techniques such as
 
 ## Examples
 * [Zapier](examples/zapier.md)
+* Microsoft Power Automate
 
 ## References
+
+* [Living off the Cloud. Cloudy with a Chance of Exfiltration](https://www.pentestpartners.com/security-blog/living-off-the-cloud-cloudy-with-a-chance-of-exfiltration/)
