@@ -1,6 +1,12 @@
 # SaaS attack techniques
 
+This repository is a collection of SaaS-specific attack techniques. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share SaaS attack techniques.
+
 > Quick note: we wanted to start sharing as early as possible, so this is very much a work in progress. Hopefully there is enough to see the shape of things to come, but no doubt there are gaps - we'll be filling them in over the coming weeks and months. If you can help fill in some references, add examples, or point us to missing techniques - please open an issue (or even a PR)! We'll be very sure to credit you.
+
+## The SaaS attacks matrix
+
+We’ve taken inspiration from the MITRE Att&ck framework (certainly intended as the sincerest form of flattery), but wanted to make a conscious break away from the endpoint-focused Att&ck techniques and instead focus on techniques that are SaaS-first. In fact, none of these techniques touch endpoints or customer networks - so we’re calling them networkless attacks.
 
 | Reconnaissance | Initial Access | Execution | Persistence | Privilege Escalation | Defense Evasion | Credential Access | Discovery | Lateral Movement | Exfiltration |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,3 +20,18 @@
 ||[IM phishing](techniques/im_phishing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)|||[Automation workflow sharing](techniques/automation_workflow_sharing/description.md)||
 ||[IM user spoofing](techniques/im_user_spoofing/description.md)|||||||||
 ||[nOAuth](techniques/noauth/description.md)|||||||||
+
+Another divergence from the Att&ck framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
+
+We’ve also removed a few columns that are common in these MITRE-style frameworks, perhaps most notably the Command & Control phase. Since SaaS is delivered directly on the internet, you can’t force an attacker to access it through your web gateway. You can try forcing your own employees through a gateway, but attackers can access it directly like everyone else (there are edge cases here, but they are rare). This means there is no need for C2 techniques.
+
+Other phases have a slightly borader definition, for example, the Execution phase includes techniques that are not strictly code execution on an endpoint, but achieve a similar outcome.
+
+## Scope
+
+When we started this research project, the first task was to choose an initial scope. Like every good red-teamer, we wanted to start with low-cost techniques, so that means we were looking for techniques that:
+* Avoid highly effective controls that are expensive to bypass, especially endpoint controls like EDR - so endpoint malware-based techniques are out
+* Look for features that can be abused long-term, rather than bugs that will be patched quickly - so no zero-days
+* Go beyond the dozen or so core SaaS apps like O365 and Google Workspace - look to the hundreds of other apps that have primitive security controls and store or have access to highly sensitive data
+
+While we left out techniques that are endpoint-based attacks that lead to a SaaS compromise (MITRE does a good job of thise techniques) we think that it makes sense to add techniques to go from SaaS to the endpoint might make sense to add here. We're still thinking about this, but we'd love to hear your thoughts.
