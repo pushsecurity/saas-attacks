@@ -23,9 +23,9 @@ We’ve taken inspiration from the MITRE Att&ck framework (certainly intended as
 
 Another divergence from the Att&ck framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
 
-We’ve also removed a few columns that are common in these MITRE-style frameworks, perhaps most notably the Command & Control phase. Since SaaS is delivered directly on the internet, you can’t force an attacker to access it through your web gateway. You can try forcing your own employees through a gateway, but attackers can access it directly like everyone else (there are edge cases here, but they are rare). This means there is no need for C2 techniques.
+We’ve also removed a few columns that are common in these MITRE-style frameworks, some (like Impact) are so similar they aren't worth duplicating. Others (perhaps most notably the Command & Control phase) because they no longer apply. Since SaaS is delivered directly on the internet, you can’t force an attacker to access it through your web gateway. You can try forcing your own employees through a gateway, but attackers can access it directly like everyone else (there are edge cases here, but they are rare). This means there is generally no need for C2 techniques.
 
-Other phases have a slightly borader definition, for example, the Execution phase includes techniques that are not strictly code execution on an endpoint, but achieve a similar outcome.
+Finally, some need a slightly broader definition. For example, the Execution phase includes techniques that are not strictly code execution on an endpoint, but achieve an equivalent outcome in the SaaS context.
 
 ## Scope
 
