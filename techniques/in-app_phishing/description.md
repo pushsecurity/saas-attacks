@@ -5,7 +5,7 @@
 * Lateral Movement
 
 ## Summary
-It’s possible to conduct phishing, and other social engineering attacks, using native features of SaaS apps. This will often result in activity directly within an app the target already uses and/or may result in email notifications being delivered directly to the target but from legitimate email domains associated with the SaaS app. This is a broad area but commonly can be through shared content or collaborations features, such as document sharing and commenting functionality.
+It’s possible to conduct phishing and other social engineering attacks, using native features of SaaS apps. This will often result in activity directly within an app the target already uses and/or may result in email notifications being delivered directly to the target but from legitimate email domains associated with the SaaS app. This is a broad area but commonly can be through shared content or collaborations features, such as document sharing and commenting functionality.
 
 Users will often treat activity within legitimate apps or email notifications from confirmed legitimate SaaS app domains with a much higher level of trust than they would traditional phishing emails and therefore they are more likely to fall victim.
 
