@@ -1,7 +1,7 @@
 # MFA fatigue
 
 ## Tactics
-* Initial access
+* Initial Access
 
 ## Summary
 One of the most common implementations of MFA is using push notifications to a mobile device that allow the user to approve or deny the login request. This is generally the most user friendly approach as a user can authenticate with the push of a button from their phone lock screen, without needing to read a code from another app and type it in anywhere.
@@ -14,4 +14,4 @@ Eventually, the user only needs to click to approve the login once, whether thro
 
 
 ## References
-This was used as a technique in the [Uber breach by Lapsus$](https://www.darkreading.com/attacks-breaches/uber-breach-external-contractor-mfa-bombing-attack)
+* [Uber breach by Lapsus$](https://www.darkreading.com/attacks-breaches/uber-breach-external-contractor-mfa-bombing-attack)
