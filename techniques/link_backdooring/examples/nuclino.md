@@ -1,4 +1,4 @@
-# Backdooring links on [Nuclino]](https://nuclino.com/)
+# Backdooring links on [Nuclino](https://nuclino.com/)
 
 Nuclino, a SaaS-based wiki, is a great example of a target for URL/link backdooring. By default, all users have read/write access to everything in their workspaces. In practice, that means any single compromised user has the ability to modify a large amount of content.
 

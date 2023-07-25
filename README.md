@@ -20,6 +20,7 @@ We’ve taken inspiration from the MITRE Att&ck framework (certainly intended as
 ||[IM phishing](techniques/im_phishing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)|||[Automation workflow sharing](techniques/automation_workflow_sharing/description.md)||
 ||[IM user spoofing](techniques/im_user_spoofing/description.md)|||||||||
 ||[nOAuth](techniques/noauth/description.md)|||||||||
+||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||||
 
 Another divergence from the Att&ck framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
 
