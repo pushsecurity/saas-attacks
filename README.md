@@ -35,4 +35,4 @@ When we started this research project, the first task was to choose an initial s
 * Look for features that can be abused long-term, rather than bugs that will be patched quickly - so no zero-days
 * Go beyond the dozen or so core SaaS apps like O365 and Google Workspace - look to the hundreds of other apps that have primitive security controls and store or have access to highly sensitive data
 
-While we left out techniques that are endpoint-based attacks that lead to a SaaS compromise (MITRE does a good job of thise techniques) we think that it makes sense to add techniques to go from SaaS to the endpoint might make sense to add here. We're still thinking about this, but we'd love to hear your thoughts.
+While we left out techniques that are endpoint-based attacks that lead to a SaaS compromise (MITRE does a good job of these techniques) we think that it makes sense to add techniques to go from SaaS to the endpoint might make sense to add here. We're still thinking about this, but we'd love to hear your thoughts.
