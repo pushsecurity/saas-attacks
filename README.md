@@ -6,7 +6,7 @@ This repository is a collection of SaaS-specific attack techniques. It is intend
 
 ## The SaaS attacks matrix
 
-We’ve taken inspiration from the MITRE Att&ck framework (certainly intended as the sincerest form of flattery), but wanted to make a conscious break away from the endpoint-focused Att&ck techniques and instead focus on techniques that are SaaS-first. In fact, none of these techniques touch endpoints or customer networks - so we’re calling them networkless attacks.
+We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as the sincerest form of flattery), but wanted to make a conscious break away from the endpoint-focused ATT&CK techniques and instead focus on techniques that are SaaS-first. In fact, none of these techniques touch endpoints or customer networks - so we’re calling them networkless attacks.
 
 | Reconnaissance | Initial Access | Execution | Persistence | Privilege Escalation | Defense Evasion | Credential Access | Discovery | Lateral Movement | Exfiltration |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ We’ve taken inspiration from the MITRE Att&ck framework (certainly intended as
 ||[nOAuth](techniques/noauth/description.md)|||||||||
 ||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||||
 
-Another divergence from the Att&ck framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
+Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
 
 We’ve also removed a few columns that are common in these MITRE-style frameworks, some (like Impact) are so similar they aren't worth duplicating. Others (perhaps most notably the Command & Control phase) because they no longer apply. Since SaaS is delivered directly on the internet, you can’t force an attacker to access it through your web gateway. You can try forcing your own employees through a gateway, but attackers can access it directly like everyone else (there are edge cases here, but they are rare). This means there is generally no need for C2 techniques.
 
