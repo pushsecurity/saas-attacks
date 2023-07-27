@@ -4,6 +4,8 @@ This repository is a collection of SaaS-specific attack techniques. It is intend
 
 > Quick note: we wanted to start sharing as early as possible, so this is very much a work in progress. Hopefully there is enough to see the shape of things to come, but no doubt there are gaps - we'll be filling them in over the coming weeks and months. If you can help fill in some references, add examples, or point us to missing techniques - please open an issue (or even a PR)! We'll be very sure to credit you.
 
+For more information on the background to this project, check the following [blog post](https://pushsecurity.com/blog/saas-attack-techniques/)
+
 ## The SaaS attacks matrix
 
 We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as the sincerest form of flattery), but wanted to make a conscious break away from the endpoint-focused ATT&CK techniques and instead focus on techniques that are SaaS-first. In fact, none of these techniques touch endpoints or customer networks - so we’re calling them networkless attacks.
@@ -36,7 +38,3 @@ When we started this research project, the first task was to choose an initial s
 * Go beyond the dozen or so core SaaS apps like O365 and Google Workspace - look to the hundreds of other apps that have primitive security controls and store or have access to highly sensitive data
 
 While we left out techniques that are endpoint-based attacks that lead to a SaaS compromise (MITRE does a good job of these techniques) we think that it makes sense to add techniques to go from SaaS to the endpoint might make sense to add here. We're still thinking about this, but we'd love to hear your thoughts.
-
-## References
-
-https://pushsecurity.com/blog/saas-attack-techniques/
