@@ -17,4 +17,4 @@ Consent phishing is most commonly associated with attacks aimed at getting acces
 
 ## References
 
-TODO
+* https://www.mwrcybersec.com/decoding-consent-phishing
