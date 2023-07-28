@@ -18,3 +18,4 @@ Wiki-style apps are a particularly interesting target for this type of attack as
 * [Nuclino](examples/nuclino.md)
 
 ## References
+* [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)

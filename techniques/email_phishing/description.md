@@ -10,7 +10,7 @@ SaaS-focused phishing attacks tend to be focused on capturing credentials and MF
 
 Traditionally, many organizations would have only had one web-based external endpoint, such as Outlook Web Access. Often phishing attacks would target fake OWA portals and phishing training commonly focus on such scenarios. However, there is a higher number of potential scenarios that could be convincing to a target using a large number of SaaS apps.
 
-
 ## Examples
 
 ## References
+* [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
