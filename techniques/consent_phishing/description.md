@@ -18,3 +18,4 @@ Consent phishing is most commonly associated with attacks aimed at getting acces
 ## References
 
 * https://www.mwrcybersec.com/decoding-consent-phishing
+* https://github.com/mdsecactivebreach/o365-attack-toolkit
