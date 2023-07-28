@@ -15,3 +15,4 @@ The adversary could target users by sending seemingly legitimate links to the ap
 * [Nuclino](examples/nuclino.md)
 
 ## References
+[Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)

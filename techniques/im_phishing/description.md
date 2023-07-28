@@ -16,3 +16,4 @@ Due to the ubiquity and effectiveness of instant messaging apps, communication w
 ## References
 * [Jumpsec Advisory: IDOR in Microsoft Teams Allows for External Tenants to Introduce Malware](https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware/)
 * [TeamsPhisher](https://github.com/Octoberfest7/TeamsPhisher)
+* [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
