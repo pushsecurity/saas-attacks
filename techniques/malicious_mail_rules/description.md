@@ -16,6 +16,6 @@ By intercepting password or MFA reset emails through forwarding and auto-delete 
 * [Office 365](examples/office_365.md)
 
 ## References
-* https://github.com/FSecureLABS/XRulez
-* https://silentbreaksecurity.com/malicious-outlook-rules
-* https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/
+* [Malicious Outlook Rules - Technical blog post](https://www.netspi.com/blog/technical/adversary-simulation/malicious-outlook-rules/)
+* [Ruler - A tool to abuse Exchange services](https://github.com/sensepost/ruler)
+* [XRulez - A command line tool for creating malicious outlook rules](https://github.com/FSecureLABS/XRulez)
