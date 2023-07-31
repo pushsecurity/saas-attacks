@@ -15,3 +15,4 @@ It is common for the organization name itself to be used, or something very clos
 * [BambooHR](examples/bamboohr.md)
 
 ## References
+* [MITRE ATT&CK - Wordlist Scanning](https://attack.mitre.org/techniques/T1595/003/)
