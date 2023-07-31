@@ -15,3 +15,4 @@ Eventually, the user only needs to click to approve the login once, whether thro
 
 ## References
 * [Uber breach by Lapsus$](https://www.darkreading.com/attacks-breaches/uber-breach-external-contractor-mfa-bombing-attack)
+* [MITRE ATT&CK - MFA Request Generation](https://attack.mitre.org/techniques/T1621/)
