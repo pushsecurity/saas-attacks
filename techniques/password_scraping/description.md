@@ -16,3 +16,4 @@ An adversary could search for passwords via compromised apps in order to discove
 * [Canva](examples/canva.md)
 
 ## References
+* [MITRE ATT&CK - Unsecured Credentials](https://attack.mitre.org/techniques/T1552/)
