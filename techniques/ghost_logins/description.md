@@ -18,3 +18,4 @@ This attack will go unnoticed if the victim organization relies on SSO logs for 
 * [Shortcut](examples/shortcut.md)
 
 ## References
+* [MITRE ATT&CK - Use Alternate Authentication Material](https://attack.mitre.org/techniques/T1550/)
