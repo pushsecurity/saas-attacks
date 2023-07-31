@@ -11,3 +11,4 @@ Querying DNS TXT records can reveal which SaaS apps the target organization migh
 * [TXT records](examples/txt_hsbc.md)
 
 ## References
+* [MITRE ATT&CK - DNS](https://attack.mitre.org/techniques/T1590/002/)
