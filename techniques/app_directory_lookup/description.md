@@ -12,3 +12,4 @@ An adversary who has gained a foothold via a SaaS app could download the list of
 * [Shortcut](examples/shortcut.md)
 
 ## References
+* [MITRE ATT&CK - Account Discovery](https://attack.mitre.org/techniques/T1087/)

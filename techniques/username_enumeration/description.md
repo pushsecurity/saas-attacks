@@ -11,3 +11,4 @@ Since email addresses are commonly used during the authentication process and th
 * [Ramp](examples/ramp.md)
 
 ## References
+* [MITRE ATT&CK - Account Discovery](https://attack.mitre.org/techniques/T1087/)
