@@ -24,5 +24,4 @@ It also has other advantages in that the link the target needs to visit is a leg
 * [How to Detect Malicious OAuth Device Code Phishing](https://www.inversecos.com/2022/12/how-to-detect-malicious-oauth-device.html)
 * [PhishInSuits - a tool for device code phishing vs SMS](https://github.com/secureworks/PhishInSuits)
 * [Microsoft device code documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code)
-
-
+* [MITRE ATT&CK - Phishing: Speakphishing Link](https://attack.mitre.org/techniques/T1566/002/)
