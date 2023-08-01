@@ -16,4 +16,4 @@ These attacks can be make more effective by matching personal and corporate emai
 
 ## References
 
-TODO
+* [MITRE ATT&CK - Brute Force: Credential Stuffing](https://attack.mitre.org/techniques/T1110/004/)

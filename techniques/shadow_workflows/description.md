@@ -24,3 +24,4 @@ Akin to traditional endpoint “Living Off The Land” (LOTL) techniques such as
 ## References
 
 * [Living off the Cloud. Cloudy with a Chance of Exfiltration](https://www.pentestpartners.com/security-blog/living-off-the-cloud-cloudy-with-a-chance-of-exfiltration/)
+* [MITRE ATT&CK - Automated Exfiltration](https://attack.mitre.org/techniques/T1020/)

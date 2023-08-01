@@ -15,3 +15,4 @@ Adversaries using this technique may also evade detection controls as these are 
 * [Microsoft 365](examples/microsoft_365.md)
 
 ## References
+* [MITRE ATT&CK - Exfiltration Over Web Service](https://attack.mitre.org/techniques/T1567/)

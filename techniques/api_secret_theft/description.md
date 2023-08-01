@@ -14,3 +14,4 @@ In apps that don’t explicitly make these secrets readable to the user, it migh
 * [Postman](examples/postman.md)
 
 ## References
+* [MITRE ATT&CK - Steal Application Access Token](https://attack.mitre.org/techniques/T1528/)
