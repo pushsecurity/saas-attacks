@@ -11,5 +11,5 @@ An adversary with email access could laterally move to other SaaS apps that supp
 ## Examples
 * [Canva](examples/canva.md)
 * [Slack](examples/slack.md)
-
+* [Expensify](examples/expensify.md)
 ## References

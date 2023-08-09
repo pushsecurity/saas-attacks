@@ -16,6 +16,7 @@ This attack will go unnoticed if the victim organization relies on SSO logs for 
 
 ## Examples
 * [Shortcut](examples/shortcut.md)
+* [Expensify](examples/expensify.md)
 
 ## References
 * [MITRE ATT&CK - Use Alternate Authentication Material](https://attack.mitre.org/techniques/T1550/)

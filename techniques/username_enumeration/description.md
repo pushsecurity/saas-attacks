@@ -9,6 +9,7 @@ Since email addresses are commonly used during the authentication process and th
 
 ## Examples
 * [Ramp](examples/ramp.md)
+* [Expensify](examples/expensify.md)
 
 ## References
 * [MITRE ATT&CK - Account Discovery](https://attack.mitre.org/techniques/T1087/)
