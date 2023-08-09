@@ -14,5 +14,6 @@ If SAML is used, adversaries can discover whether a target organization is using
 
 ## Examples
 * [Ramp](examples/ramp.md)
+* [Expensify](examples/expensify.md)
 
 ## References
