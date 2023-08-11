@@ -1,0 +1,61 @@
+title = "Recon examples quicklist"
+
+[addevent.com]
+saml_enum = false
+subdomain_discovery = false
+slug_enum = false
+user_enum = true
+
+[atlassian.com]
+saml_enum = true
+subdomain_discovery = false
+slug_enum = true
+user_enum = true
+
+[slack.com]
+saml_enum = true
+subdomain_discovery = true
+slug_enum = true
+user_enum = false
+
+[polly.ai]
+saml_enum = false
+subdomain_discovery = false
+slug_enum = false
+user_enum = false
+
+[zoom.com]
+saml_enum = true
+subdomain_discovery = true
+slug_enum = true
+user_enum = false
+
+[notion.so]
+saml_enum = true
+subdomain_discovery = false
+slug_enum = true
+user_enum = true
+
+[miro.com]
+saml_enum = true
+subdomain_discovery = false
+slug_enum = false
+user_enum = true
+
+[figma.com]
+saml_enum = true
+subdomain_discovery = false
+slug_enum = false
+user_enum = true
+
+[lucid.co]
+saml_enum = true
+subdomain_discovery = false
+slug_enum = false
+user_enum = true
+
+[datadoghq.com]
+saml_enum = false
+subdomain_discovery = false
+slug_enum = false
+user_enum = true
