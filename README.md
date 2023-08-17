@@ -20,7 +20,7 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[App spraying](techniques/app_spraying/description.md)||[System integrations](techniques/system_integrations/description.md)||[System integrations](techniques/system_integrations/description.md)|||[In-app phishing](techniques/in-app_phishing/description.md)||
 ||[Email phishing](techniques/email_phishing/description.md)||[Ghost logins](techniques/ghost_logins/description.md)||[Ghost logins](techniques/ghost_logins/description.md)|||[IM user spoofing](techniques/im_user_spoofing/description.md)||
 ||[IM phishing](techniques/im_phishing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)|||[Automation workflow sharing](techniques/automation_workflow_sharing/description.md)||
-||[IM user spoofing](techniques/im_user_spoofing/description.md)||||[Device code phishing](techniques/device_code_phishing/description.md)|||||
+||[IM user spoofing](techniques/im_user_spoofing/description.md)||||[Device code phishing](techniques/device_code_phishing/description.md)|||[SAMLjacking](techniques/samljacking/description.md)||
 ||[nOAuth](techniques/noauth/description.md)|||||||||
 ||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||||
 ||[Device code phishing](techniques/device_code_phishing/description.md)|||||||||
