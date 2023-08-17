@@ -1,4 +1,5 @@
 # SAMLjacking
+ID: SAT1032
 
 ## Tactics
 * Initial Access

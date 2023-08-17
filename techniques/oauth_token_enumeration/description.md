@@ -1,4 +1,5 @@
 # OAuth token enumeration
+ID: SAT1026
 
 ## Tactics
 * Discovery

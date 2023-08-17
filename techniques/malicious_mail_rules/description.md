@@ -1,4 +1,5 @@
 # Malicious mail rules
+ID: SAT1023
 
 ## Tactics
 * Persistence

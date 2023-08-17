@@ -1,5 +1,7 @@
 # Abuse existing OAuth integrations
 
+ID: SAT1001
+
 ## Tactics
 * Privilege Escalation
 * Lateral Movement
