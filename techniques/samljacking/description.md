@@ -3,6 +3,7 @@ ID: SAT1032
 
 ## Tactics
 * Initial Access
+* Lateral Movement
 
 ## Summary
 
