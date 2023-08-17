@@ -1,4 +1,5 @@
 # SAML enumeration
+ID: SAT1031
 
 ## Tactics
 * Reconnassiance

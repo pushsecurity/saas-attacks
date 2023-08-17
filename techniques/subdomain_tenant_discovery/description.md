@@ -1,4 +1,5 @@
 # Subdomain tenant discovery
+ID: SAT1035
 
 ## Tactics
 * Reconnassiance
