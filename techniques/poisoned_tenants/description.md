@@ -14,8 +14,13 @@ In many cases, execution of such an attack will take careful social engineering.
 
 Adversaries may use other techniques to make poisoned tenants appealing to users, such as upgrading the tenant to a higher license tier, unlocking useful features.
 
+A demo video of an attack chain combining a poisoned tenant with a [SAMLjacking](/techniques/samljacking/description.md) attack is given below:
+ 
+[![demo video](https://img.youtube.com/vi/4gAeSxbycXU/0.jpg)](https://www.youtube.com/watch?v=4gAeSxbycXU)
+
 ## Examples
 * [Trello](examples/trello.md)
 * [Nuclino](examples/nuclino.md)
 
 ## References
+* [SAMLjacking a poisoned tenant - Technical blog post](https://pushsecurity.com/blog/samljacking-a-poisoned-tenant/)

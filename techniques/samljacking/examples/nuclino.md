@@ -14,3 +14,7 @@ The target would then see this legitimate login page:
 When clicking login, the user would be redirected to a legitimate-looking phishing page:
 
 ![screenshot](nuclino_phishing.png)
+
+A demo video of an attack chain combining SAMLjacking with a poisoned tenant using Nuclino is given below:
+ 
+[![demo video](https://img.youtube.com/vi/4gAeSxbycXU/0.jpg)](https://www.youtube.com/watch?v=4gAeSxbycXU)
