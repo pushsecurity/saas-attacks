@@ -15,6 +15,7 @@ The adversary could target users by sending seemingly legitimate links to the ap
 
 ## Examples
 * [Nuclino](examples/nuclino.md)
+* [Datadog](examples/datadog.md)
 
 ## References
 [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
