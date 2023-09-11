@@ -12,10 +12,15 @@ Instead, the attacker could enumerate existing OAuth integrations the user has a
 
 This attack relies on the victim having already installed or created an OAuth integration that would be useful to the attacker. Existing integrations with workflow automation / no-code automation platforms are typically the most useful, but other apps that access (and expose) sensitive data like email are common in marketing, sales and customer support tools.
 
+A demo video of an attack chain combining [shadow workflows](/techniques/shadow_workflows/description.md) with an evil twin integration is given below:
+ 
+[![demo video](https://img.youtube.com/vi/g2EITjjJH1s/0.jpg)](https://www.youtube.com/watch?v=g2EITjjJH1s)
+
 
 ## Examples
 * [Hubspot](examples/hubspot.md)
 
 ## References
 
-https://pushsecurity.com/blog/maintaining-persistent-access-in-a-saas-first-world
+* [Maintaining persistant access in a SaaS-first world - Technical blog post](https://pushsecurity.com/blog/maintaining-persistent-access-in-a-saas-first-world)
+* [The shadow workflow's evil twin - Technical blog post](https://pushsecurity.com/blog/nearly-invisible-attack-chain/)

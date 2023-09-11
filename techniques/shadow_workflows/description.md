@@ -17,6 +17,9 @@ While the graphical interface is useful for non-technical users, many of these a
 
 Akin to traditional endpoint “Living Off The Land” (LOTL) techniques such as PowerShell, an adversary may use these legitimate, well-known SaaS automation apps rather than custom OAuth integrations to avoid detection.
 
+A demo video of an attack chain combining a shadow workflow with an [evil twin integration](/techniques/evil_twin_integrations/description.md) is given below:
+ 
+[![demo video](https://img.youtube.com/vi/g2EITjjJH1s/0.jpg)](https://www.youtube.com/watch?v=g2EITjjJH1s)
 
 ## Examples
 * [Zapier](examples/zapier.md)
@@ -26,3 +29,4 @@ Akin to traditional endpoint “Living Off The Land” (LOTL) techniques such as
 
 * [Living off the Cloud. Cloudy with a Chance of Exfiltration](https://www.pentestpartners.com/security-blog/living-off-the-cloud-cloudy-with-a-chance-of-exfiltration/)
 * [MITRE ATT&CK - Automated Exfiltration](https://attack.mitre.org/techniques/T1020/)
+* [The shadow workflow's evil twin - Technical blog post](https://pushsecurity.com/blog/nearly-invisible-attack-chain/)
