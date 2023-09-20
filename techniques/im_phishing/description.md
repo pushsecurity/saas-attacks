@@ -19,3 +19,4 @@ Due to the ubiquity and effectiveness of instant messaging apps, communication w
 * [TeamsPhisher](https://github.com/Octoberfest7/TeamsPhisher)
 * [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
 * [MITRE ATT&CK - Phishing: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
+* [Storm-0324 distributes malware using TeamsPhisher](https://www.microsoft.com/en-us/security/blog/2023/09/12/malware-distributor-storm-0324-facilitates-ransomware-access/)
