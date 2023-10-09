@@ -17,6 +17,7 @@ This technique has the added benefit of appearing more legitimate as the OAuth i
 
 ## Examples
 * [Thunderbird](examples/thunderbird.md)
+* [GitHub VSCode extension](examples/github_vscode.md)
 
 ## References
 
