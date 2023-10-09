@@ -1,13 +1,13 @@
 # Spoofing GitHub VSCode extension
 
-GitHub is another great example of a SaaS app that allows for spoofing of legitimate OAuth apps for persistence. Another interesting aspect of GitHub is that sometimes organisations will accept personal developer GitHub accounts into organizations and that this can introduce issues where persistence has been achieved on a personal account that later gains access to private repositories in a GitHub organization. Even if the organization enforces a password change and a new MFA mechanism as part of admittance, OAuth persistence mechanisms can still potentially enable access to the organisation repos to be inherited by attackers who have compromised the account previously.
+GitHub is another great example of a SaaS app that allows for spoofing of legitimate OAuth apps for persistence. Another interesting aspect of GitHub is that sometimes organizations will accept personal developer GitHub accounts into organizations and that this can introduce issues where persistence has been achieved on a personal account that later gains access to private repositories in a GitHub organization. Even if the organization enforces a password change and a new MFA mechanism as part of admittance, OAuth persistence mechanisms can still potentially enable access to the organization repos to be inherited by attackers who have compromised the account previously.
 
 There are many GitHub apps available but VSCode extensions are one very common example. In fact, the very widely used "GitHub Pull Requests and Issues" extension for VSCode makes use of legacy OAuth access via GitHub instead of the newer GitHub applications mechanism. This is much better for persistence from an attacker’s perspective because up to ten tokens can be valid at the same time before they rotate and tokens last for a minimum of a year without activity. This is documented in GitHub docs:
 
 https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps#creating-multiple-tokens-for-oauth-apps
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/token-expiration-and-revocation#token-expired-due-to-lack-of-use
 
-For example. if an attacker has gained (temporary) access to a GitHub account then they could impersonate this extension to gain persistence. We’ll show this from the perspective of an attacker using their own VSCode instance below to add the extension but using burp to intercept the requests so we can also get access to the raw tokens in order to make custom API calls in future.
+For example, if an attacker has gained (temporary) access to a GitHub account then they could impersonate this extension to gain persistence. We’ll show this from the perspective of an attacker using their own VSCode instance below to add the extension but using burp to intercept the requests so we can also get access to the raw tokens in order to make custom API calls in future.
 
 ![screenshot](github_vscode1.png)
 
@@ -21,7 +21,7 @@ For example. if an attacker has gained (temporary) access to a GitHub account th
 
 *Capturing the client ID, client secret and access token using Burp*
 
-We can see from the requests made that the extension makes use of an embedded client secret as well, so we could actually authorise this app without making use of VSCode but for simplicity we’ve shown it from the perspective of the attacker using their own VSCode instance here. In the response we get the access token and then we can either make use of the embedded functionality within the extension in VSCode for ease, or we can use this token to make custom API calls as shown below:
+We can see from the requests made that the extension makes use of an embedded client secret as well, so we could actually authorize this app without making use of VSCode but for simplicity we’ve shown it from the perspective of the attacker using their own VSCode instance here. In the response we get the access token and then we can either make use of the embedded functionality within the extension in VSCode for ease, or we can use this token to make custom API calls as shown below:
 
 ```
 luke@Lukes-MacBook-Pro % curl -H "Authorization: token gho_Iw<REDACTED>33" https://api.github.com/repos/ctrlaltsecure-lab/test/commits
