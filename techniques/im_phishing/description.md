@@ -15,6 +15,8 @@ Due to the ubiquity and effectiveness of instant messaging apps, communication w
 * [MS Teams](examples/teams.md)
 
 ## References
+* [Slack Attack: A phisher's guide to initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
+* [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
 * [Jumpsec Advisory: IDOR in Microsoft Teams Allows for External Tenants to Introduce Malware](https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware/)
 * [TeamsPhisher](https://github.com/Octoberfest7/TeamsPhisher)
 * [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)

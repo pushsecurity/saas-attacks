@@ -30,3 +30,4 @@ A demo video of an attack chain combining a shadow workflow with an [evil twin i
 * [Living off the Cloud. Cloudy with a Chance of Exfiltration](https://www.pentestpartners.com/security-blog/living-off-the-cloud-cloudy-with-a-chance-of-exfiltration/)
 * [MITRE ATT&CK - Automated Exfiltration](https://attack.mitre.org/techniques/T1020/)
 * [The shadow workflow's evil twin - Technical blog post](https://pushsecurity.com/blog/nearly-invisible-attack-chain/)
+* [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)

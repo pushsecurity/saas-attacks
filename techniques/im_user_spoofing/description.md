@@ -16,3 +16,5 @@ For example, a compromised user account could be renamed and have the photo chan
 * [Slack](examples/slack.md)
 
 ## References
+* [Slack Attack: A phisher's guide to initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
+* [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
