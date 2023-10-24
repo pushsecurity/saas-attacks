@@ -16,3 +16,4 @@ In some cases, app-level integrations require administrative permissions but in 
 * [Slack](examples/slack.md)
 
 ## References
+* [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
