@@ -10,7 +10,7 @@ Inbound federation allows users to login to a target identity provider by authen
 
 An adversary who has gained administrative control of an application, such as a core identity provider, can use this to both maintain persistent access as well as effectively laterally move to other user accounts by authenticating against an identity provider they control and having those accounts mapped automatically to existing accounts on the target identity provider.
 
-This shares similarities with ghost logins, but affects all users of an application instead of being tied specifically to one user account. 
+This shares similarities with [ghost logins](/techniques/ghost_logins/description.md), but affects all users of an application instead of being tied specifically to one user account. 
 
 ## Examples
 * [Okta](examples/okta.md)
