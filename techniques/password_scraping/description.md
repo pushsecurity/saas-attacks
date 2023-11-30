@@ -14,7 +14,9 @@ An adversary could search for passwords via compromised apps in order to discove
 
 
 ## Examples
+* [Okta](examples/okta.md)
 * [Canva](examples/canva.md)
 
 ## References
 * [MITRE ATT&CK - Unsecured Credentials](https://attack.mitre.org/techniques/T1552/)
+* [Abusing Okta SWA - Technical blog post](https://pushsecurity.com/blog/okta-swa/)
