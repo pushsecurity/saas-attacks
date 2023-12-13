@@ -20,3 +20,5 @@ Because the app is controlled by the adversary, the requested scopes or permissi
 * [Slack API tester](examples/slack_api_tester.md)
 
 ## References
+
+* [Microsoft blog - Threat actors misuse OAuth applications to automate financially driven attacks](https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks/)
