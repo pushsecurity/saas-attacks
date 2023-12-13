@@ -22,3 +22,4 @@ By intercepting password or MFA reset emails through forwarding and auto-delete 
 * [XRulez - A command line tool for creating malicious outlook rules](https://github.com/FSecureLABS/XRulez)
 * [MITRE ATT&CK - Email Forwarding Rule](https://attack.mitre.org/techniques/T1114/003/)
 * [Multi-account Office365 compromise using mail rules](https://darktrace.com/blog/breakdown-of-a-multi-account-compromise-within-office-365)
+* [Microsoft blog - Mail rules used to hide attacks](https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks/)
