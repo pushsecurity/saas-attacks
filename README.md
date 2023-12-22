@@ -6,6 +6,14 @@ This repository is a collection of SaaS-specific attack techniques. It is intend
 
 For more information on the background to this project, check the following [blog post](https://pushsecurity.com/blog/saas-attack-techniques/)
 
+The Microsoft BlueHat 2023 "The new SaaS cyber kill chain" presentation that covers a lot of this research can be found below: 
+
+[BlueHat - The new SaaS cyber kill chain](https://www.youtube.com/watch?v=pdDzUTFVIZc)
+
+For a podcast covering this topic, checkout the DCP Podcast by SpectreOps below:
+
+[DCP Podcast Episode 35](https://www.youtube.com/watch?v=NAOE875gAOg)
+
 ## The SaaS attacks matrix
 
 We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as the sincerest form of flattery), but wanted to make a conscious break away from the endpoint-focused ATT&CK techniques and instead focus on techniques that are SaaS-first. In fact, none of these techniques touch endpoints or customer networks - so we’re calling them networkless attacks.
