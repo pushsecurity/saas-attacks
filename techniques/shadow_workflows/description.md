@@ -31,3 +31,4 @@ A demo video of an attack chain combining a shadow workflow with an [evil twin i
 * [MITRE ATT&CK - Automated Exfiltration](https://attack.mitre.org/techniques/T1020/)
 * [The shadow workflow's evil twin - Technical blog post](https://pushsecurity.com/blog/nearly-invisible-attack-chain/)
 * [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
+* [Octo Tempest use FiveTran to steal SalesForce and ZenDesk databases](https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/)
