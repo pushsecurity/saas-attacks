@@ -22,3 +22,4 @@ Because the app is controlled by the adversary, the requested scopes or permissi
 ## References
 
 * [Microsoft blog - Threat actors misuse OAuth applications to automate financially driven attacks](https://www.microsoft.com/en-us/security/blog/2023/12/12/threat-actors-misuse-oauth-applications-to-automate-financially-driven-attacks/)
+* [Microsoft blog - Midnight Blizzard using OAuth for persistence in attack against MS](https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/)
