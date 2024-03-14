@@ -23,4 +23,4 @@ Additionally, cloud password managers are ripe targets for password scraping as 
 ## References
 * [MITRE ATT&CK - Unsecured Credentials](https://attack.mitre.org/techniques/T1552/)
 * [Abusing Okta SWA - Technical blog post](https://pushsecurity.com/blog/okta-swa/)
-* [Can my admins steall my cloud password manager secrets? - Technical blog post](https://pushsecurity.com/blog/can-my-admins-steal-my-cloud-password-manager-secrets/)
+* [Can my admins steal my cloud password manager secrets? - Technical blog post](https://pushsecurity.com/blog/can-my-admins-steal-my-cloud-password-manager-secrets/)
