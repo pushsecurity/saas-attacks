@@ -12,11 +12,15 @@ One more modern example is that some SaaS apps allow passwordless email-based au
 
 An adversary could search for passwords via compromised apps in order to discover passwords that may allow them to move laterally to other apps and potentially as different user accounts too.
 
+Additionally, cloud password managers are ripe targets for password scraping as compromising a cloud identity that allows direct access to a cloud password manager can enable large-scale password scraping.
+
 
 ## Examples
 * [Okta](examples/okta.md)
 * [Canva](examples/canva.md)
 
+
 ## References
 * [MITRE ATT&CK - Unsecured Credentials](https://attack.mitre.org/techniques/T1552/)
 * [Abusing Okta SWA - Technical blog post](https://pushsecurity.com/blog/okta-swa/)
+* [Can my admins steal my cloud password manager secrets? - Technical blog post](https://pushsecurity.com/blog/can-my-admins-steal-my-cloud-password-manager-secrets/)
