@@ -2,7 +2,6 @@
 ID: SAT1044
 
 ## Tactics
-* Privilege Escalation
 * Initial Access
 
 ## Summary
