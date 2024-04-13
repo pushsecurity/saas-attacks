@@ -35,6 +35,7 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[Hijack OAuth flows](techniques/hijack_oauth_flows/description.md)|||||||||
 ||[AiTM Phishing](techniques/aitm_phishing/description.md)|||||||||
 ||[Device Enrollment](techniques/device_enrollment/description.md)|||||||||
+||[Guest User Access](techniques/guest_user_access/description.md)|||||||||
 
 
 Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
