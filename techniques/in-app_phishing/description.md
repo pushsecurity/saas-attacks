@@ -16,6 +16,8 @@ For example, a malicious document could be shared with a target using a document
 
 ## Examples
 
+* [GitHub](examples/github.md)
+
 ## References
 * [Jade sleet compromise using GitHub repository collaboration](https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/)
 * [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
