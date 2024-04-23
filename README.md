@@ -6,8 +6,12 @@
 [![badge](https://img.shields.io/twitter/follow/jacques_sec?style=social)](https://twitter.com/jacques_sec)
 [![badge](https://img.shields.io/twitter/follow/pushsecurity?style=social)](https://twitter.com/pushsecurity)
 
-[![push logo](https://github.com/pushsecurity/saas-attacks/assets/95348608/81bfe46c-8c36-4174-baa5-f50130ffa409)](https://pushsecurity.com)
-
+<a href="https://pushsecurity.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pushsecurity/saas-attacks/assets/95348608/7b32b771-5774-4b58-bd2b-1b8cd82c8857">
+  <img src="https://github.com/pushsecurity/saas-attacks/assets/95348608/f732944a-9066-4e5d-a0a3-8e1b77ee0526">
+</picture>
+</a>
 
 </div>
 
