@@ -46,12 +46,12 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[Email phishing](techniques/email_phishing/description.md)||[Ghost logins](techniques/ghost_logins/description.md)||[Ghost logins](techniques/ghost_logins/description.md)|||[IM user spoofing](techniques/im_user_spoofing/description.md)||
 ||[IM phishing](techniques/im_phishing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)|||[Automation workflow sharing](techniques/automation_workflow_sharing/description.md)||
 ||[IM user spoofing](techniques/im_user_spoofing/description.md)||[Inbound federation](techniques/inbound_federation/description.md)||[Device code phishing](techniques/device_code_phishing/description.md)|||[SAMLjacking](techniques/samljacking/description.md)||
-||[nOAuth](techniques/noauth/description.md)||[Device Enrollment](techniques/device_enrollment/description.md)|||||[Inbound federation](techniques/inbound_federation/description.md)||
-||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||||
+||[nOAuth](techniques/noauth/description.md)||[Device enrollment](techniques/device_enrollment/description.md)||[Session cookie theft](techniques/session_cookie_theft/description.md)|||[Inbound federation](techniques/inbound_federation/description.md)||
+||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||[Session cookie theft](techniques/session_cookie_theft/description.md)||
 ||[Device code phishing](techniques/device_code_phishing/description.md)|||||||||
 ||[Hijack OAuth flows](techniques/hijack_oauth_flows/description.md)|||||||||
 ||[AiTM Phishing](techniques/aitm_phishing/description.md)|||||||||
-||[Device Enrollment](techniques/device_enrollment/description.md)|||||||||
+||[Device enrollment](techniques/device_enrollment/description.md)|||||||||
 
 
 Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
