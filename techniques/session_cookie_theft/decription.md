@@ -11,7 +11,7 @@ Due to increasing use of SaaS apps, core identity providers acting as SSO gatewa
 
 Prevoiously, endpoint compromises would have often involved credential dumping and been focused on lateral movement to other endpoints or internal servers. Now there is an increasing drive to move to SaaS applications instead. Widespread MFA use makes captured passwords less useful alone and so stealing authenticated session cookies is a valid method to circumvent MFA. This can even potentially circumvent modern phishing-resistant MFA factors such as passkeys as it can circumvent the requirement to re-authenticate entirely. 
 
-Session cookies for any SaaS application are useful but when valid sessions for core IdPs are compromised then adversaries will typically be avble to laterally move to a large number of downstream SaaS applications by abusing SSO mechanisms like SAML and OIDC. Vendor-specific technologies like Okta SWA will also allow direct credential compromise for other downstream SaaS applications.
+Session cookies for any SaaS application are useful but when valid sessions for core IdPs are compromised then adversaries will typically be able to laterally move to a large number of downstream SaaS applications by abusing SSO mechanisms like SAML and OIDC. Vendor-specific technologies like Okta SWA will also allow direct credential compromise for other downstream SaaS applications.
 
 While adversaries may steal cookies directly using compromised endpoints, stolen cookies have also become available for sale in the criminal world from infostealing malware, therefore it may be possible to directly purchase cookies for use. 
 
