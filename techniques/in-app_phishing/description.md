@@ -17,6 +17,7 @@ For example, a malicious document could be shared with a target using a document
 ## Examples
 
 * [GitHub](examples/github.md)
+* [Monday.com](https://www.bleepingcomputer.com/news/security/mondaycom-removes-share-update-feature-abused-for-phishing-attacks/)
 
 ## References
 * [Jade sleet compromise using GitHub repository collaboration](https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/)
