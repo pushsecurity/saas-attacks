@@ -1,5 +1,5 @@
-# Guest User Access
-ID: SAT1044
+# Guest Access Abuse
+ID: SAT1046
 
 ## Tactics
 * Initial Access
