@@ -24,3 +24,4 @@ This attack will go unnoticed if the victim organization relies on SSO logs for 
 ## References
 * [MITRE ATT&CK - Use Alternate Authentication Material](https://attack.mitre.org/techniques/T1550/)
 * [X thread explaining ghost logins with reference to Snowflake](https://x.com/jukelennings/status/1801985628034281703)
+* [Google email verification flaw abused to compromise 3rd party SaaS services](https://krebsonsecurity.com/2024/07/crooks-bypassed-googles-email-verification-to-create-workspace-accounts-access-3rd-party-services/)
