@@ -15,6 +15,7 @@ Consent phishing is most commonly associated with attacks aimed at getting acces
 
 ## Examples
 * [Microsoft](examples/microsoft.md)
+* [GitHub](https://www.bleepingcomputer.com/news/security/gitloker-attacks-abuse-github-notifications-to-push-malicious-oauth-apps/)
 
 ## References
 
