@@ -14,3 +14,4 @@ Special thanks for feedback and advice on early drafts from:
 Special thanks for contributors to the repository post-release:
 
 * [@tkalahan](https://twitter.com/tkalahan)
+* [@CharanRoot](https://github.com/CharanRoot)
