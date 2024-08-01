@@ -22,3 +22,4 @@ Attackers can exploit this by using an AiTM phishing attack to modify requests/r
 ## References
 * [FIDO Alliance - Passkeys 101](https://fidoalliance.org/passkeys/)
 * [X33fcon - Unraveling and Countering Adversary-in-the-Middle Phishing Attacks - MFA downgrade section](https://youtu.be/-W-LxcbUxI4?t=1541)
+* [Evilginx phishlet for WHfB MFA downgrade attack](https://github.com/yudasm/WHfB-o365-Phishlet)
