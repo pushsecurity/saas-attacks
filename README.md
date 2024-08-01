@@ -1,3 +1,20 @@
+<div align="center">
+
+[![badge](https://img.shields.io/badge/Push%20Security-Sponsored%20Project-blue.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMzExJyBoZWlnaHQ9JzE1Mycgdmlld0JveD0nMCAwIDMxMSAxNTMnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTIzNS4wMjIgMTUyLjEwN0MyNzYuODU2IDE1Mi4xMDcgMzEwLjkwMSAxMTguMDk2IDMxMC45MDEgNzYuMzA0OUMzMTAuOTAxIDM0LjUxMzQgMjc2Ljg3MSAwLjUwMjkzIDIzNS4wMjIgMC41MDI5M0MxOTMuMTc0IDAuNTAyOTMgMTU5LjE0NCAzNC41MTM0IDE1OS4xNDQgNzYuMzA0OUMxNTkuMTQ0IDExOC4wOTYgMTkzLjE4OCAxNTIuMTA3IDIzNS4wMjIgMTUyLjEwN1pNMjAyLjc1IDQ0LjA2NDlDMjExLjM3MyAzNS40NTA3IDIyMi44MjUgMzAuNzA0NyAyMzUuMDIyIDMwLjcwNDdDMjQ3LjIxOSAzMC43MDQ3IDI1OC42NzIgMzUuNDUwNyAyNjcuMjk1IDQ0LjA2NDlDMjc1LjkxOCA1Mi42NzkxIDI4MC42NjkgNjQuMTM0OSAyODAuNjY5IDc2LjMwNDlDMjgwLjY2OSA4OC40NzQ4IDI3NS45MTggOTkuOTMwNyAyNjcuMjk1IDEwOC41NDVDMjU4LjY3MiAxMTcuMTU5IDI0Ny4yMTkgMTIxLjkwNSAyMzUuMDIyIDEyMS45MDVDMjIyLjgyNSAxMjEuOTA1IDIxMS4zNzMgMTE3LjE1OSAyMDIuNzUgMTA4LjU0NUMxOTQuMTI3IDk5LjkzMDcgMTg5LjM5MSA4OC40NzQ4IDE4OS4zOTEgNzYuMzA0OUMxODkuMzkxIDY0LjEzNDkgMTk0LjE0MiA1Mi42NzkxIDIwMi43NSA0NC4wNjQ5WicgZmlsbD0nI0ZENzQ1MicvPjxwYXRoIGQ9J00xNDIuMjg3IDAuNTAyOTNMNTQuNjU3NyAxNTIuMTA3SDg5LjU4MTNMMTc3LjE5NiAwLjUwMjkzSDE0Mi4yODdaJyBmaWxsPScjRkQ3NDUyJy8+PHBhdGggZD0nTTg3LjYyOTEgMC41MDI5M0wwIDE1Mi4xMDdIMzQuOTIzNkwxMjIuNTUzIDAuNTAyOTNIODcuNjI5MVonIGZpbGw9JyNGRDc0NTInLz48L3N2Zz4=)](https://pushsecurity.com)
+ [![badge](https://img.shields.io/badge/BlueHat_--_The_new_SaaS_cyber_kill_chain-white?logo=youtube&logoColor=FF0000&style=s)](https://www.youtube.com/watch?v=pdDzUTFVIZc)
+[![badge](https://img.shields.io/twitter/follow/jukelennings?style=social)](https://twitter.com/jukelennings)
+[![badge](https://img.shields.io/twitter/follow/jacques_sec?style=social)](https://twitter.com/jacques_sec)
+[![badge](https://img.shields.io/twitter/follow/pushsecurity?style=social)](https://twitter.com/pushsecurity)
+
+<a href="https://pushsecurity.com">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pushsecurity/saas-attacks/assets/95348608/7b32b771-5774-4b58-bd2b-1b8cd82c8857">
+  <img src="https://github.com/pushsecurity/saas-attacks/assets/95348608/f732944a-9066-4e5d-a0a3-8e1b77ee0526">
+</picture>
+</a>
+
+</div>
+
 # SaaS attack techniques
 
 This repository is a collection of SaaS-specific attack techniques. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share SaaS attack techniques.
@@ -29,12 +46,14 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[Email phishing](techniques/email_phishing/description.md)||[Ghost logins](techniques/ghost_logins/description.md)||[Ghost logins](techniques/ghost_logins/description.md)|||[IM user spoofing](techniques/im_user_spoofing/description.md)||
 ||[IM phishing](techniques/im_phishing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)||[Client-side app spoofing](techniques/client-side_app_spoofing/description.md)|||[Automation workflow sharing](techniques/automation_workflow_sharing/description.md)||
 ||[IM user spoofing](techniques/im_user_spoofing/description.md)||[Inbound federation](techniques/inbound_federation/description.md)||[Device code phishing](techniques/device_code_phishing/description.md)|||[SAMLjacking](techniques/samljacking/description.md)||
-||[nOAuth](techniques/noauth/description.md)||[Device Enrollment](techniques/device_enrollment/description.md)|||||[Inbound federation](techniques/inbound_federation/description.md)||
-||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||||
+||[nOAuth](techniques/noauth/description.md)||[Device enrollment](techniques/device_enrollment/description.md)||[Session cookie theft](techniques/session_cookie_theft/description.md)|||[Inbound federation](techniques/inbound_federation/description.md)||
+||[MFA fatigue](techniques/mfa_fatigue/description.md)|||||||[Session cookie theft](techniques/session_cookie_theft/description.md)||
 ||[Device code phishing](techniques/device_code_phishing/description.md)|||||||||
 ||[Hijack OAuth flows](techniques/hijack_oauth_flows/description.md)|||||||||
 ||[AiTM Phishing](techniques/aitm_phishing/description.md)|||||||||
-||[Device Enrollment](techniques/device_enrollment/description.md)|||||||||
+||[Device enrollment](techniques/device_enrollment/description.md)|||||||||
+||[Ghost logins](techniques/ghost_logins/description.md)|||||||||
+||[MFA downgrade](techniques/mfa_downgrade/description.md)|||||||||
 ||[Guest User Access](techniques/guest_user_access/description.md)|||||||||
 
 
