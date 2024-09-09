@@ -6,7 +6,7 @@ ID: SAT1040
 
 ## Summary 
 
-During the OAuth authorization code flow, after a user grants permission to a third-party application, the service provider generates an authorization code and redirects the user's browser back to the third-party application's specified *redirect_uri*. This *redirect_uri* is an endpoint on the third-party application's server where the authorization code will be sent. If the third-party application's server doesn't properly validate the *redirect_uri* when receiving the authorization code callback, an attacker could modify the *redirect_uri* parameter during the authorization request to point to a malicious server they control.
+During the OAuth authorization code flow, after a user grants permission to a third-party application, the service provider generates an authorization code and redirects the user's browser back to the third-party application's specified *redirect_uri*. This *redirect_uri* is an endpoint on the third-party application's server where the authorization code will be sent. If the service provider has not been configured with an appropriately restricted allowlist of *redirect_uri* values it is allowed to redirect to, an attacker could modify the *redirect_uri* parameter sent during the initial authorization request to point to a malicious server they control.
 
 This may allow an adversary to intercept the authorization code and use it to request an access token for the victim's account from the service provider. This access token can then be used to access the victim's resources without their consent.
 
