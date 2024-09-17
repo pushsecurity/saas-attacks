@@ -14,3 +14,4 @@ Since email addresses are commonly used during the authentication process and th
 
 ## References
 * [MITRE ATT&CK - Account Discovery](https://attack.mitre.org/techniques/T1087/)
+* [Holehe - OSINT tool for finding registered accounts](https://github.com/megadose/holehe)
