@@ -15,6 +15,9 @@
 
 </div>
 
+> [!NOTE]
+> We're hiring! If you're into the kind of research we're doing here and based in the US, we'd love to [hear from you](https://pushsecurity.bamboohr.com/careers/74?source=aWQ9MzQ%3D)!
+
 # SaaS attack techniques
 
 This repository is a collection of SaaS-specific attack techniques. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share SaaS attack techniques.
