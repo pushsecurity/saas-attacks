@@ -12,5 +12,5 @@ Cross-IdP impersonation is when an adversary uses an account with the correct ta
 For example, if a target organization has user@example.com email addresses and uses Microsoft Entra as their identity provider, but an attacker is able to create a user@example.com account with Google somehow, then they can potentially circumvent SSO logins to downstream SaaS applications by using "Login with Google" social logins instead of "Login with Microsoft" or a SAML-based SSO login. This is also affected by the configuration of the downstream SaaS application. 
 
 ## References
-
+* [Technical blog post - Verification phishing and cross-idp impersonation](https://pushsecurity.com/blog/a-new-class-of-phishing-verification-phishing-and-cross-idp-impersonation/)
 * [Zendesk vulnerability allows Slack compromise](https://cyberinsider.com/zendesk-vulnerability-allows-slack-takeovers-through-apple-oauth-exploit/)
