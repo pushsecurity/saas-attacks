@@ -60,6 +60,7 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[Guest access abuse](techniques/guest_access_abuse/description.md)|||||||||
 ||[Cross-idp impersonation](techniques/cross-idp_impersonation/description.md)|||||||||
 ||[Verification phishing](techniques/verification_phishing/description.md)|||||||||
+||[UI redressing](techniques/ui_redressing/description.md)|||||||||
 
 
 Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
