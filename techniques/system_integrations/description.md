@@ -17,3 +17,4 @@ In some cases, app-level integrations require administrative permissions but in 
 
 ## References
 * [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
+* [Slack Jack - A tool for Slack bot token abuse](https://github.com/adelapazborrero/slack_jack?tab=readme-ov-file)

@@ -19,6 +19,7 @@ Due to the ubiquity and effectiveness of instant messaging apps, communication w
 * [Slack Attack: A phisher's guide to persistence and lateral movement](https://pushsecurity.com/blog/phishing-slack-persistence/)
 * [Jumpsec Advisory: IDOR in Microsoft Teams Allows for External Tenants to Introduce Malware](https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware/)
 * [TeamsPhisher](https://github.com/Octoberfest7/TeamsPhisher)
-* [Evilginx - MITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
+* [Slack Jack - A tool for Slack bot token abuse](https://github.com/adelapazborrero/slack_jack?tab=readme-ov-file)
+* [Evilginx - AITM framework for phishing login credentials](https://github.com/kgretzky/evilginx2)
 * [MITRE ATT&CK - Phishing: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
 * [Storm-0324 distributes malware using TeamsPhisher](https://www.microsoft.com/en-us/security/blog/2023/09/12/malware-distributor-storm-0324-facilitates-ransomware-access/)
