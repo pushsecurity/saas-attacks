@@ -8,12 +8,13 @@
 
 <a href="https://pushsecurity.com">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pushsecurity/saas-attacks/assets/95348608/7b32b771-5774-4b58-bd2b-1b8cd82c8857">
-  <img src="https://github.com/pushsecurity/saas-attacks/assets/95348608/f732944a-9066-4e5d-a0a3-8e1b77ee0526">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/bf1acc9e-c55d-4e1c-b0cd-77e906c90d91">
+  <img src="https://github.com/user-attachments/assets/d12dcd80-d758-48fd-9c9d-47e8216c26fc">
 </picture>
 </a>
 
 </div>
+
 # SaaS attack techniques
 
 This repository is a collection of SaaS-specific attack techniques. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share SaaS attack techniques.
