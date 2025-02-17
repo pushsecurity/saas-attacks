@@ -9,7 +9,7 @@
 <a href="https://pushsecurity.com">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/bf1acc9e-c55d-4e1c-b0cd-77e906c90d91">
-  <img src="https://github.com/user-attachments/assets/d12dcd80-d758-48fd-9c9d-47e8216c26fc" style="width: 50%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/d12dcd80-d758-48fd-9c9d-47e8216c26fc" width="400">
 </picture>
 </a>
 
