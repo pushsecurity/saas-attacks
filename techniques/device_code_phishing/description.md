@@ -19,6 +19,7 @@ It also has other advantages in that the link the target needs to visit is a leg
 
 ## Examples
 * [Microsoft](examples/microsoft.md)
+* [GitHub](https://www.praetorian.com/blog/introducing-github-device-code-phishing/)
 
 ## References
 * [Introducing a new phishing technique for compromising Office 365 accounts](https://aadinternals.com/post/phishing/)
