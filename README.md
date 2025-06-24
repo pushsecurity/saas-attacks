@@ -48,7 +48,7 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[IM user spoofing](techniques/im_user_spoofing/description.md)||[Inbound federation](techniques/inbound_federation/description.md)||[Device code phishing](techniques/device_code_phishing/description.md)|||[SAMLjacking](techniques/samljacking/description.md)||
 ||[nOAuth](techniques/noauth/description.md)||[Device enrollment](techniques/device_enrollment/description.md)||[Session cookie theft](techniques/session_cookie_theft/description.md)|||[Inbound federation](techniques/inbound_federation/description.md)||
 ||[MFA fatigue](techniques/mfa_fatigue/description.md)||[Cross-idp impersonation](techniques/cross-idp_impersonation/description.md)|||||[Session cookie theft](techniques/session_cookie_theft/description.md)||
-||[Device code phishing](techniques/device_code_phishing/description.md)|||||||||
+||[Device code phishing](techniques/device_code_phishing/description.md)||[App-specific password phishing](techniques/app_specific_password_phishing/description.md)|||||||
 ||[Hijack OAuth flows](techniques/hijack_oauth_flows/description.md)|||||||||
 ||[AiTM Phishing](techniques/aitm_phishing/description.md)|||||||||
 ||[Device enrollment](techniques/device_enrollment/description.md)|||||||||
@@ -58,6 +58,7 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[Cross-idp impersonation](techniques/cross-idp_impersonation/description.md)|||||||||
 ||[Verification phishing](techniques/verification_phishing/description.md)|||||||||
 ||[UI redressing](techniques/ui_redressing/description.md)|||||||||
+||[App-specific password phishing](techniques/app_specific_password_phishing/description.md)|||||||||
 
 
 Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
