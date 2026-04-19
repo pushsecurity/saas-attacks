@@ -1,4 +1,4 @@
-# SAMLjacking on [Datadog](https://https://www.datadoghq.com/)
+# SAMLjacking on [Datadog](https://www.datadoghq.com/)
 
 Datadog allows SAML integrations even on their free tier, so makes a great test case.
 

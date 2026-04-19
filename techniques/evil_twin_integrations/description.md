@@ -22,5 +22,5 @@ A demo video of an attack chain combining [shadow workflows](/techniques/shadow_
 
 ## References
 
-* [Maintaining persistant access in a SaaS-first world - Technical blog post](https://pushsecurity.com/blog/maintaining-persistent-access-in-a-saas-first-world)
+* [Maintaining persistent access in a SaaS-first world - Technical blog post](https://pushsecurity.com/blog/maintaining-persistent-access-in-a-saas-first-world)
 * [The shadow workflow's evil twin - Technical blog post](https://pushsecurity.com/blog/nearly-invisible-attack-chain/)

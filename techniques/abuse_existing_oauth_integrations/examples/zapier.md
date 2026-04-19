@@ -1,4 +1,4 @@
-# Abusing exisitng [Zapier](https://zapier.com) OAuth integrations
+# Abusing existing [Zapier](https://zapier.com) OAuth integrations
 
 In the example below, a Zapier user has set up connections to Google Drive, Microsoft Outlook and Slack. An adversary gaining control of this Zapier account could gain access to data in these apps using these integrations.
 

@@ -2,7 +2,7 @@
 ID: SAT1038
 
 ## Tactics
-* Reconnassiance
+* Reconnaissance
 
 ## Summary
 When attempting to authenticate to a SaaS app, the login mechanism itself may disclose whether the username/email address is a known/valid account, even if the provided password is incorrect.

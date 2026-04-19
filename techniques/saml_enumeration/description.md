@@ -2,7 +2,7 @@
 ID: SAT1031
 
 ## Tactics
-* Reconnassiance
+* Reconnaissance
 
 ## Summary
 
