@@ -19,7 +19,7 @@
 
 This repository is a collection of browser and identity attack techniques covering SaaS apps, browser-based attacks, identity providers, and phishing. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share these attack techniques.
 
-> **Name change notice:** This project was previously known as the *SaaS Attacks Matrix*. We've renamed it to the *Browser & Identity Attacks Matrix* to better reflect its expanding scope — including browser-based attack techniques (like malicious extensions and browser-targeting phishing) and identity-layer attacks that don't fit neatly under the "SaaS" label. All existing links and references to this repo continue to work; only the name has changed.
+> **Name change notice:** This project was previously known as the *SaaS Attacks Matrix*. We've renamed it to the *Browser & Identity Attacks Matrix* to better reflect its expanding scope — including browser-based attack techniques (like malicious extensions and phishing) and identity-layer attacks that don't fit neatly under the "SaaS" label. All existing links and references to this repo continue to work; only the name has changed.
 
 > Quick note: we wanted to start sharing as early as possible, so this is very much a work in progress. Hopefully there is enough to see the shape of things to come, but no doubt there are gaps - we'll be filling them in over the coming weeks and months. If you can help fill in some references, add examples, or point us to missing techniques - please open an issue (or even a PR)! We'll be very sure to credit you.
 
