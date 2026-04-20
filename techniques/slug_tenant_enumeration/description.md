@@ -2,7 +2,7 @@
 ID: SAT1034
 
 ## Tactics
-* Reconnassiance
+* Reconnaissance
 
 ## Summary
 SaaS vendors make use of different strategies to separate tenants from one another. Often, this is based on the creation of a “slug” chosen by the user during tenant creation. This is used as either a path separator, query parameter, or subdomain to separate tenants.

@@ -2,7 +2,7 @@
 ID: SAT1035
 
 ## Tactics
-* Reconnassiance
+* Reconnaissance
 
 ## Summary
 SaaS vendors make use of different strategies to separate different tenants from one another. One of these methods is the use of a unique subdomain, which is often picked during the creation of a new tenant.

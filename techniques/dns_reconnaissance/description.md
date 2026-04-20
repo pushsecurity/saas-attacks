@@ -2,7 +2,7 @@
 ID: SAT1013
 
 ## Tactics
-* Reconnassiance
+* Reconnaissance
 
 ## Summary
 Some SaaS apps require ownership verification for a domain as part of the setup process. A common way to verify ownership is to publish a specific string as a DNS TXT record that the SaaS vendor can verify as proof.
