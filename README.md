@@ -64,11 +64,11 @@ We’ve taken inspiration from the MITRE ATT&CK framework (certainly intended as
 ||[ConsentFix](techniques/consentfix/description.md)|||||||||
 
 
-Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS is a relatively new attack surface, and we want to encourage security researchers to think creatively about how SaaS can be abused to better anticipate future attacks.
+Another divergence from the ATT&CK framework is that these techniques are not solely based on observation. Instead, we’re allowing more exploratory techniques that haven't been seen in the wild. We think this is important because SaaS and identity are relatively new attack surfaces, and we want to encourage security researchers to think creatively about how they — and the browser-based techniques used to attack them — can be abused to better anticipate future attacks.
 
 We’ve also removed a few columns that are common in these MITRE-style frameworks, some (like Impact) are so similar they aren't worth duplicating. Others (perhaps most notably the Command & Control phase) because they no longer apply. Since SaaS is delivered directly on the internet, you can’t force an attacker to access it through your web gateway. You can try forcing your own employees through a gateway, but attackers can access it directly like everyone else (there are edge cases here, but they are rare). This means there is generally no need for C2 techniques.
 
-Finally, some need a slightly broader definition. For example, the Execution phase includes techniques that are not strictly code execution on an endpoint, but achieve an equivalent outcome in the SaaS context.
+Finally, some need a slightly broader definition. For example, the Execution phase includes techniques that are not strictly code execution on an endpoint, but achieve an equivalent outcome in a SaaS, identity, or browser context.
 
 ## Scope
 
@@ -77,4 +77,4 @@ When we started this research project, the first task was to choose an initial s
 * Look for features that can be abused long-term, rather than bugs that will be patched quickly - so no zero-days
 * Go beyond the dozen or so core SaaS apps like O365 and Google Workspace - look to the hundreds of other apps that have primitive security controls and store or have access to highly sensitive data
 
-While we left out techniques that are endpoint-based attacks that lead to a SaaS compromise (MITRE does a good job of these techniques) we think that it makes sense to add techniques to go from SaaS to the endpoint might make sense to add here. We're still thinking about this, but we'd love to hear your thoughts.
+While we left out techniques that are endpoint-based attacks leading to a SaaS, identity, or browser compromise (MITRE does a good job of these techniques) we think that techniques going the other way — from SaaS, identity, or the browser back to the endpoint — might make sense to add here.
