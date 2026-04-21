@@ -9,7 +9,7 @@ It's possible to upload a file to a GitHub comment and it will automatically be 
 For example, the image below shows the supported file formats in the error:
 ![alt text](image.png)
 
-This image shows the link being created while the comment is still in draft and providing a link to the file both within the "pushsecurity" organization and within the "saas-attacks" repository
+This image shows the link being created while the comment is still in draft and providing a link to the file both within the "pushsecurity" organization and within the "browser-identity-attacks-matrix" repository
 
 ![alt text](image-1.png)
 
